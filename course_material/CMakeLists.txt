@@ -111,7 +111,7 @@ set(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib")
 
 # Example Codes
 add_subdirectory(${CMAKE_SOURCE_DIR}/common)
-add_subdirectory(${CMAKE_SOURCE_DIR}/L1_Introduction)
+# add_subdirectory(${CMAKE_SOURCE_DIR}/L1_Introduction)
 add_subdirectory(${CMAKE_SOURCE_DIR}/L2_Using_HIP_On_Setonix)
 add_subdirectory(${CMAKE_SOURCE_DIR}/L2_Using_HIP_On_Setonix/rocprof_mpi)
 add_subdirectory(${CMAKE_SOURCE_DIR}/L3_Matrix_Multiplication)
